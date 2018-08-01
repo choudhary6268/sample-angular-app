@@ -1,0 +1,18 @@
+<h2>Weather Data</h2>
+
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Salary</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let employee of employees; let i = index">
+    <td>{{employee.id}}</td>
+    <td>{{employee.employee_name}}</td>
+    <td>{{employee.employee_age}}</td>
+  </tr>
+  </tbody>
+</table>
